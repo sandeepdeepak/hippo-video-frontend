@@ -1,0 +1,60 @@
+<div class="row mt-5">
+  <div class="col text-center">
+    <div class="small-size-title-colored">REFER AND BENEFIT</div>
+  </div>
+</div>
+<div class="row mt-3 d-flex justify-content-center">
+  <div class="col-9">
+    <div class="quote">
+      Refer Hippo Video and Get 600 Personalized Video Emails Credited to Your
+      Account
+    </div>
+  </div>
+</div>
+<div class="row m-5">
+  <div
+    class="col d-flex justify-content-center"
+    *ngFor="let referBox of referBoxes; let i = index"
+  >
+    <div class="refer-box">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div
+            class="circle m-4"
+            [ngStyle]="{ backgroundColor: referBox.color }"
+          ></div>
+          <mat-icon
+            svgIcon="setting"
+            [ngStyle]="{ color: referBox.color }"
+            class="inside-circle"
+          ></mat-icon>
+          <div
+            class="too-inside-circle d-flex justify-content-center align-items-center"
+          >
+            <div class="refer-no" [ngStyle]="{ color: referBox.color }">
+              {{ i + 1 }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col text-center">
+          <div class="refer-title" [ngStyle]="{ color: referBox.color }">
+            {{ referBox.referTitle }}
+          </div>
+        </div>
+      </div>
+      <div class="row m-4" *ngFor="let referPoint of referBox.referPoints">
+        <div class="col text-left">
+          <div class="refer-point">
+            <div
+              class="refer-point-icon d-inline-flex m-1"
+              [ngStyle]="{ backgroundColor: referBox.color }"
+            ></div>
+            {{ referPoint }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

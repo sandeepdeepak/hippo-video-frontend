@@ -1,0 +1,32 @@
+.header {
+  height: 95px;
+}
+.top-header {
+  height: 30px;
+  font-size: 11px;
+  letter-spacing: 0.33px;
+  color: #838383;
+  font-weight: 400;
+}
+.logo {
+  width: 103px;
+  height: 29px;
+}
+.main-header {
+  height: 65px;
+  letter-spacing: 0.39px;
+  color: #5d5d5d;
+  font-size: 13px;
+  font-weight: 500;
+}
+.active-main-header {
+  color: #4a49c9;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-bottom: #4a49c9 solid 2px;
+}
+.mat-flat-button {
+  background-image: linear-gradient(110deg, #fc6076 17%, #ff9a44 83%);
+  color: white;
+  font-weight: 400;
+}

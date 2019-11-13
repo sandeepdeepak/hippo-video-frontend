@@ -1,0 +1,53 @@
+.refer-box {
+  width: 337px;
+  height: 454px;
+  border: solid 1px #000000;
+}
+
+.circle {
+  width: 111px;
+  height: 111px;
+  opacity: 0.3;
+  border-radius: 50%;
+}
+.inside-circle {
+  top: 2.3em;
+  position: absolute;
+  width: 85px;
+  height: 85px;
+}
+.too-inside-circle {
+  top: 3.7em;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.refer-no {
+  font-size: 1.3em;
+}
+::ng-deep svg {
+  fill: inherit !important;
+}
+.refer-title {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.refer-point {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.28px;
+}
+
+.refer-point-icon {
+  width: 5.8px;
+  height: 5.8px;
+  border-radius: 50%;
+}
+
+// .refer-point-icon-orange {
+//   @include refer-point-icon(#f26b5c);
+// }

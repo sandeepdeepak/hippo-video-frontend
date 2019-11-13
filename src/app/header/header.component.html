@@ -1,0 +1,25 @@
+<div class="container-fluid header">
+  <div class="row top-header">
+    <div class="col d-flex align-items-center justify-content-end">
+      <span class="m-2" *ngFor="let topHeader of topHeaders">{{
+        topHeader
+      }}</span>
+    </div>
+  </div>
+  <div class="row main-header">
+    <div class="col-2 ml-5 mt-3">
+      <img src="../../assets/images/menu-bar-logo.jpg" class="logo" />
+    </div>
+    <div class="col d-flex align-items-center justify-content-end">
+      <span
+        class="ml-4 mr-4"
+        *ngFor="let mainHeader of mainHeaders; let i = index"
+        [ngClass]="{ 'active-main-header': i === 0 }"
+        >{{ mainHeader }}</span
+      >
+      <span class="ml-4 mr-4">
+        <button mat-flat-button>START CREATING</button>
+      </span>
+    </div>
+  </div>
+</div>

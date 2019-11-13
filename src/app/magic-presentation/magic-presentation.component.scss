@@ -1,0 +1,35 @@
+.screen-menu-bar {
+  width: 90%;
+  height: 6%;
+  background-color: #ffffff;
+  top: 11%;
+  left: 3.5%;
+  position: absolute;
+  z-index: 100;
+}
+.screen-inside-container {
+  width: 90%;
+  height: 83%;
+  background-color: #f2f5f8;
+  top: 11%;
+  left: 3.5%;
+  position: absolute;
+}
+.menu-bar-question-mark {
+  width: 8.7px;
+  height: 8.7px;
+  background-color: #58b0c3;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.3em;
+}
+.inside-first-row {
+  margin-top: 5em;
+  height: 5.8%;
+  font-family: "OpenSans", sans-serif;
+  font-size: 6px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #4b5b69;
+  text-align: left;
+}
